@@ -41,6 +41,7 @@ function createProfile(index) { // Creation of each profile.
     newDiv.style.margin = "7px";
     newDiv.style.float = "left";
     newDiv.style.width = "45%";
+    newDiv.style.backgroundColor = "goldenrod";
 
 
     profHolder.appendChild(newDiv);
