@@ -40,7 +40,7 @@ function createProfile(index) { // Creation of each profile.
     newDiv.style.padding = "7px";
     newDiv.style.margin = "7px";
     newDiv.style.float = "left";
-    newDiv.style.width = "45%";
+    newDiv.style.width = "31%";
     newDiv.style.backgroundColor = "goldenrod";
 
 
