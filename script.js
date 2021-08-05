@@ -26,7 +26,7 @@ function createProfile(index) { // Creation of each profile.
     newDiv.appendChild(userEmail);
     newDiv.appendChild(userCell);
 
-    userImage.style.width = "15%";
+    userImage.style.width = "20%";
     userImage.style.float = "left";
 
     userName.style.marginLeft = "175px";
@@ -34,12 +34,13 @@ function createProfile(index) { // Creation of each profile.
     DOB.style.marginLeft = "175px";
     userEmail.style.marginLeft = "175px";
     userCell.style.marginLeft = "175px";
-
-
+    
     newDiv.style.border = "double black 5px";
     newDiv.style.borderRadius = "15px";
     newDiv.style.padding = "7px";
     newDiv.style.margin = "7px";
+    newDiv.style.float = "left";
+    newDiv.style.width = "45%";
 
 
     profHolder.appendChild(newDiv);
